@@ -5,28 +5,12 @@ import java.util.Objects;
 public abstract class AnimalHW {
     protected String name;
     protected String color;
+    private static int animalCount;
 
     public AnimalHW(String name, String color) {
         this.name = name;
         this.color = color;
-    }
-
-    public abstract void run();
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
+        animalCount++;
     }
 
     @Override
@@ -40,5 +24,21 @@ public abstract class AnimalHW {
     @Override
     public int hashCode() {
         return Objects.hash(name, color);
+    }
+
+    public abstract int run(int distance);
+
+    public abstract int swim(int distance);
+
+    public static int getAnimalCount() {
+        return animalCount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+        return color;
     }
 }
