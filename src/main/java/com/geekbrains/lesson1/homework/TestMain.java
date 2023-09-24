@@ -14,9 +14,9 @@ public class TestMain {
             System.out.println();
         }
         System.out.println("Всего животных: " + AnimalHW.getAnimalCount());
-        System.out.println("Всего котов: " + Cat.getCatCount());
-        System.out.println("Всего собак: " + Dog.getDogCount());
-        System.out.println("Всего тигров: " + Tiger.getTigerCount());
+        System.out.println("Всего котов: " + Cat.getCatsCount());
+        System.out.println("Всего собак: " + Dog.getDogsCount());
+        System.out.println("Всего тигров: " + Tiger.getTigersCount());
 
     }
 }

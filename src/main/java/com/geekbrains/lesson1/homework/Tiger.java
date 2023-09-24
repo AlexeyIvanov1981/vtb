@@ -1,15 +1,15 @@
 package com.geekbrains.lesson1.homework;
 
 public class Tiger extends AnimalHW {
-    private static int tigerCount;
+    private static int tigersCount;
 
     public Tiger(String name, String color) {
         super(name, color);
-        tigerCount++;
+        tigersCount++;
     }
 
-    public static int getTigerCount() {
-        return tigerCount;
+    public static int getTigersCount() {
+        return tigersCount;
     }
 
     @Override

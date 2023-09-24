@@ -1,11 +1,11 @@
 package com.geekbrains.lesson1.homework;
 
 public class Cat extends AnimalHW {
-    private static int catCount;
+    private static int catsCount;
 
     public Cat(String name, String color) {
         super(name, color);
-        catCount++;
+        catsCount++;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Cat extends AnimalHW {
         } else return 0;
     }
 
-    public static int getCatCount() {
-        return catCount;
+    public static int getCatsCount() {
+        return catsCount;
     }
 }

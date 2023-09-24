@@ -1,11 +1,11 @@
 package com.geekbrains.lesson1.homework;
 
 public class Dog extends AnimalHW {
-    private static int dogCount;
+    private static int dogsCount;
 
     public Dog(String name, String color) {
         super(name, color);
-        dogCount++;
+        dogsCount++;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Dog extends AnimalHW {
         } else return distance;
     }
 
-    public static int getDogCount() {
-        return dogCount;
+    public static int getDogsCount() {
+        return dogsCount;
     }
 }
