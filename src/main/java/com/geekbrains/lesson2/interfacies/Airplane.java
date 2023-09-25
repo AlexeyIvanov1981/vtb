@@ -1,4 +1,4 @@
-package com.geekbrains.lesson2;
+package com.geekbrains.lesson2.interfacies;
 
 public class Airplane implements Flyable{
     @Override

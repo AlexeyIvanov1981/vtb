@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="added package lesson2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Swimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Transport.java" afterDir="false" />
+    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="added some classes in package lesson2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/enums/AnotherMainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/enums/Months.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/HomeworkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/RunnableAndJumpable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/two/Treadmill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/two/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/MainAppLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/MainAppLesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/MainAppLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/MainAppLesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/interfacies/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,25 +58,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestMain">
+}</component>
+  <component name="RunManager" selected="Application.HomeworkTest">
+    <configuration name="HomeworkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson2.homework.one.HomeworkTest" />
+      <module name="lesson1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.lesson2.homework.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson1.MainApp" />
       <module name="lesson1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAppLesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson2.interfacies.MainAppLesson2" />
+      <module name="lesson1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.lesson2.interfacies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeworkTest" />
+        <item itemvalue="Application.MainAppLesson2" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.MainApp" />
       </list>
@@ -126,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695544691248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some classes in package lesson2">
+      <created>1695552757773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695552757773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +189,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="work on homework in lesson1" />
     <MESSAGE value="added package lesson2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added package lesson2" />
+    <MESSAGE value="added some classes in package lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some classes in package lesson2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
