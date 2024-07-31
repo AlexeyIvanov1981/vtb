@@ -11,7 +11,7 @@ public enum Months {
         this.number = number;
     }
 
-    public int getNumber() {
+    public int getMonthNumber() {
         return number;
     }
 }
