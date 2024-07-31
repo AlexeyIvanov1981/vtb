@@ -1,36 +1,33 @@
 package com.geekbrains.lesson2.homework.one;
 
-public class Human implements RunnableAndJumpable {
-
+public class Human implements Plaeyers {
+    private boolean actions = true;
     private String name;
-    private int maxJumpHeight;
-    private int maxDistance;
+    private int maxDistance, maxHeight;
 
-    public Human(String name, int maxJumpHeight, int maxDistance) {
+    public Human(String name, int maxDistance, int maxHeight) {
         this.name = name;
-        this.maxJumpHeight = maxJumpHeight;
         this.maxDistance = maxDistance;
+        this.maxHeight = maxHeight;
     }
 
     @Override
-    public void run() {
-        System.out.println("Человек бежит");
+    public void run(int trackDistance) {
+        if (!actions) return;
+        if (trackDistance <= maxDistance) System.out.println(name + " пробежал дистанцию " + trackDistance);
+        else {
+            System.out.println(name + " не пробежал дистанцию " + trackDistance);
+            actions = false;
+        }
     }
 
     @Override
-    public void jump() {
-        System.out.println("Человек прыгает");
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getMaxJumpHeight() {
-        return maxJumpHeight;
-    }
-
-    public int getMaxDistance() {
-        return maxDistance;
+    public void jump(int wallHeight) {
+        if (!actions) return;
+        if (wallHeight <= maxHeight) System.out.println(name + " смог перепрыгнуть стену высотой " + wallHeight);
+        else {
+            System.out.println(name + " не смог перепрыгнуть стену высотой " + wallHeight);
+            actions = false;
+        }
     }
 }
