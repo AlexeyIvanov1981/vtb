@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 2 полностью переработано">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson3/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson3/MyArraySizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson3/MyException.java" afterDir="false" />
+    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 3 готово">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ArrayToArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ChangeElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson2/homework/one/Obstacle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     "Application.HomeworkTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainAppLesson2.executor": "Run",
+    "Application.com.geekbrains.lesson4.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,7 +64,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.com.geekbrains.lesson4.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson3.App" />
       <module name="lesson1" />
@@ -118,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson1.homework.TestMain" />
+    <configuration name="com.geekbrains.lesson4.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.lesson4.App" />
       <module name="lesson1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.lesson1.homework.*" />
+          <option name="PATTERN" value="com.geekbrains.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.geekbrains.lesson4.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HomeworkTest" />
         <item itemvalue="Application.MainAppLesson2" />
-        <item itemvalue="Application.TestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722434087140</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="задание 3 готово">
+      <option name="closed" value="true" />
+      <created>1722588075593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722588075593</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +253,8 @@
     <MESSAGE value="added some classes in package lesson2" />
     <MESSAGE value="added some classes in package homework lesson2" />
     <MESSAGE value="задание 2 полностью переработано" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 2 полностью переработано" />
+    <MESSAGE value="задание 3 готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 3 готово" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
