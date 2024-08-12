@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 3 готово">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 4 готово">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ArrayToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ArrayToArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ChangeElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/ChangeElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722588075593</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="задание 4 готово">
+      <option name="closed" value="true" />
+      <created>1723458494778</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723458494778</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +262,8 @@
     <MESSAGE value="added some classes in package homework lesson2" />
     <MESSAGE value="задание 2 полностью переработано" />
     <MESSAGE value="задание 3 готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 3 готово" />
+    <MESSAGE value="задание 4 готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 4 готово" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

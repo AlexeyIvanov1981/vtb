@@ -34,7 +34,8 @@ public class App {
         box3.changeBox(box);
 
         System.out.println(box.getBoxForFruits());
-
         System.out.println(box3.getBoxForFruits());
+
+        box3.changeBox(box2);
     }
 }
