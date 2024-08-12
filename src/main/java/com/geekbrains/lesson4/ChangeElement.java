@@ -20,7 +20,7 @@ public class ChangeElement<T> {
 
     }
 
-    public T[] changeElement(T[]array, int indexElement1, int indexElement2) {
+    public T[] changeElement(T[] array, int indexElement1, int indexElement2) {
 
         element1 = array[indexElement1];
         element2 = array[indexElement2];
