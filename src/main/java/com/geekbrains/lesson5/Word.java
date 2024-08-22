@@ -13,7 +13,6 @@ public class Word {
         for (String s : uniq) {
             System.out.print(s);
             System.out.print(" ");
-
         }
         System.out.println();
     }
@@ -34,6 +33,5 @@ public class Word {
         for (Map.Entry<String, Integer> entry : count.entrySet()) {
             System.out.println("Word = '" + entry.getKey() + "', count = " + entry.getValue());
         }
-
     }
 }
