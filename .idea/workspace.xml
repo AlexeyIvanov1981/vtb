@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 4 рефакторинг">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/Word.java" afterDir="false" />
+    <list default="true" id="86740cc2-39b8-48f6-a16d-1a89dcf92c6e" name="Changes" comment="задание 5 рефакторинг">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson4/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     "Application.App.executor": "Run",
     "Application.HomeworkTest.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.MainApp.executor": "Debug",
+    "Application.MainApp.executor": "Run",
     "Application.MainAppLesson2.executor": "Run",
     "Application.com.geekbrains.lesson4.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -250,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723471141902</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="задание 5 выполнено">
+      <option name="closed" value="true" />
+      <created>1724304195214</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724304195214</updated>
+    </task>
+    <task id="LOCAL-00015" summary="задание 5 рефакторинг">
+      <option name="closed" value="true" />
+      <created>1724304296882</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724304296882</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,18 +287,9 @@
     <MESSAGE value="задание 3 готово" />
     <MESSAGE value="задание 4 готово" />
     <MESSAGE value="задание 4 рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 4 рефакторинг" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/lesson5/MainApp.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="задание 5 выполнено" />
+    <MESSAGE value="задание 5 рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 5 рефакторинг" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
