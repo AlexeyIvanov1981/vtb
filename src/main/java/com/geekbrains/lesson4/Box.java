@@ -11,7 +11,7 @@ public class Box {
 
     public void setFruitToBox(Fruit fruit) {
         if (boxForFruits.isEmpty()) {
-            this.boxForFruits.add(fruit);
+            boxForFruits.add(fruit);
             System.out.println("Вы положили фрукт " + fruit.getType() + " в коробку");
         } else if (boxForFruits.get(0).getType().equals(fruit.getType())) {
             boxForFruits.add(fruit);
