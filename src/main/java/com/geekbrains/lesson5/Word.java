@@ -19,9 +19,7 @@ public class Word {
 
     public void wordCount(String[] array) {
         Map<String, Integer> count = new HashMap<>();
-        for (int i = 0; i < array.length; i++) {
-
-            String tempStr = array[i];
+        for (String tempStr : array) {
 
             if (!count.containsKey(tempStr)) {
                 count.put(tempStr, 1);

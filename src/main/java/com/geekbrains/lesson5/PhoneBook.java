@@ -26,8 +26,4 @@ public class PhoneBook {
             }
         }
     }
-
-    public int getSize() {
-        return phoneBook.size();
-    }
 }
